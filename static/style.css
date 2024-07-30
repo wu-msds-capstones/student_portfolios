@@ -5,7 +5,7 @@
 .card-wall {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 8fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 8fr));
     grid-gap: 2rem;
 }
 
@@ -98,7 +98,7 @@ a:hover {
         padding-left: 1vw;
     }
     .card-wall {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 8fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 8fr));
     }
 }
 
